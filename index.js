@@ -28,7 +28,7 @@ function getWeather(){
     .then((data) => perseData(data))
     .then(err => console.log(err))
 
-    fetch('http://worldtimeapi.org/api/timezone/Asia/Novosibirsk')
+    fetch('https://worldtimeapi.org/api/timezone/Asia/Novosibirsk')
     .then(response => {return response.json()})
     .then((data) => setTime(data))
     .then(err => console.log(err))

@@ -1,0 +1,13 @@
+@media screen and (max-width: 1024px) {
+    .info-wrapper {
+        width: auto;
+        font-size: 2vh;
+    }
+    .temperature {
+        font-size: 6vh;
+    }
+    .sun {
+        width: 15vh;
+        height: 15vh;
+    }
+}
